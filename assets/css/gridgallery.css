@@ -40,12 +40,17 @@
 }
 
 .grid-gal figure {
-	background: url("../img/gallery/gallery.jpg") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
+	background: url("../img/gallery/5.jpg") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
 	padding: 15px;
 	-webkit-transition: opacity 0.6s ease 0.6s;
 	transition: opacity 0.6s ease 0.6s;
 }
-
+.grid-gal-2 figure {
+	background: url("../img/gallery/6.jpg") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
+	padding: 15px;
+	-webkit-transition: opacity 0.6s ease 0.6s;
+	transition: opacity 0.6s ease 0.6s;
+}
 .grid-gal li:hover figure {
 	opacity: 0.7;
 }

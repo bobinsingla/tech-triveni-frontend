@@ -56,7 +56,8 @@ jQuery( document ).ready(function( $ ) {
 	var scroll = $(window).scrollTop();
 	if (scroll > height) {
 		$(".header-hide").addClass("scroll-header");
-	}
+        $(".navbar-default .navbar-nav > li > a").css("color", "black");
+    }
 	
 	smoothScroll.init({
 		speed: 1000,
@@ -72,9 +73,11 @@ jQuery( document ).ready(function( $ ) {
 		var scroll = $(window).scrollTop();
 		if (scroll) {
 			$(".header-hide").addClass("scroll-header");
-		} else {
+            $(".navbar-default .navbar-nav > li > a").css("color", "black");
+        } else {
 			 $(".header-hide").removeClass("scroll-header");
-		}
+            $(".navbar-default .navbar-nav > li > a").css("color", "white");
+        }
 	
 	});
 	
