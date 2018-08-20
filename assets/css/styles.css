@@ -121,6 +121,26 @@ p {
     text-transform: uppercase;
     color:#1E345C;
 }
+.speaker-subheading{
+	color: white;
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 20px !important; 
+}
+.price-card-container{
+	width: 100%;
+	padding: 15%;
+}
+.card{
+	border-radius: 5px;
+	background: #212639;
+	color: white;
+	padding:100px 120px;
+	display: table;
+	color: #fff;
+	margin: 0 auto;
+}
+
 .sponsor-logo{
 
 }
@@ -357,14 +377,17 @@ hr {
 	box-shadow: 10px 12px 17px -6px rgba(0,0,0,0.2);
 }
 .logo-visible{
-	display:none;
+	display:none !important;
 }
 
 .scroll-header .logo-hide{
 	display:none;
 }
 .scroll-header .logo-visible{
-	display:block;
+	display:block !important;
+}
+.scroll-header .logo-visible{
+    display:block !important;
 }
 
 .header {
@@ -839,6 +862,40 @@ div.avatar {
 	position:relative;
 
 }
+.btn-effect-speaker{
+	background: none repeat scroll 0 0 #00A4FF;
+	border: medium none;
+	color: #ffffff;
+	letter-spacing: 0.2em;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	z-index:1;
+	cursor:pointer;
+	position:relative;
+}
+.btn-effect-speaker:after {
+	background: none repeat scroll 0 0 #ffffff;
+	height: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index:-1;
+	content: "";
+	position: absolute;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	color: #00A4FF;
+}
+.btn-effect-speaker:hover:after, 
+.btn-effect-speaker:active:after {
+	height: 100%;
+}
 
 .pricing-wrap .btn-effect{
 	background: none repeat scroll 0 0 #fff;
@@ -1083,7 +1140,7 @@ div.avatar {
 /** Registration Form **/
 /****************************/
 .swag {
-	background: url('../img/backgrounds/bg-input.jpg') no-repeat center center;
+	background: url('../img/7.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

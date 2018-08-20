@@ -1,0 +1,257 @@
+
+/*.form-design {
+    color: white !important;
+    background-color: black !important;
+    height: 75px;
+}*/
+
+.adjust-navbar {
+    margin-top: 10px !important;
+    font-size: 12px !important;
+}
+
+.banner-page {
+    height: 100%;
+    width: auto;
+    padding-top: 0px;
+}
+
+.align-center {
+    text-align: center !important;
+}
+/*
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff !important;
+}
+*/
+
+.wrapper {
+    width: 100%;
+    background-color: lightcyan;
+}
+
+.banner-img {
+    background-image: url(pic_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#text-adjust, #sub-heading {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 3.5vw;
+    text-align: center !important;
+    bottom: 276px;
+    left: 59%;
+}
+
+#sub-heading {
+    bottom: 260px !important;
+    font-weight: unset;
+    font-size: 2vw;
+}
+
+.aboutTo-adjust {
+    bottom: 125px !important;
+    position: relative !important;
+    background: #ffffff;
+    padding: 45px;
+}
+
+.adjust-proposal {
+    bottom: 125px;
+    position: relative;
+    padding: 0px;
+}
+
+.proposal {
+    background: #e9e7e7 !important;
+}
+
+hr {
+    width: 8% !important;
+    border: solid 1px #00A4FF !important;
+    margin-top: 18px !important;
+    margin-bottom: 25px !important;
+}
+
+.navbar.navbar-default .navbar-nav > .active > a {
+    background: none !important;
+}
+
+.content-proposal {
+    right: 125px;
+    padding-left: 10%;
+    text-align: justify;
+}
+
+.fa-design {
+    color: #00A4FF !important;
+    margin-left: 13%;
+}
+
+.proposal-image {
+    float: left !important;
+    margin-left: 8% !important;
+}
+
+.date-set {
+    margin-top: 1px;
+    right: 75px;
+    padding-bottom: 14px;
+}
+
+.color-black {
+    background: black !important
+}
+
+.color-white {
+    color: #ffffff !important;
+}
+
+.aligned-submit {
+    bottom: 32px !important;
+    position: relative;
+}
+
+.form-background {
+    background: #ffffff;
+    border-radius: 10px;
+}
+.sponsor-section{
+    bottom: 189px;
+    position: relative;
+}
+.session-proposal{
+ padding-top: 20px;
+}
+.session-padding{
+    padding-top: 20px;
+}
+/* Career Form */
+.career-form-container {
+    padding: 40px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2)!important;
+}
+
+.form-group {
+    padding: 15px 50px !important;
+}
+
+.form-group span {
+    font-family: "Poppins-Regular";
+    margin-bottom: 10px !important;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #444040;
+}
+
+.form-group input {
+    font-family: "Poppins-Regular";
+    background: white !important;
+    padding: 20px !important;
+    height: 50px;
+}
+
+.form-group select {
+    font-family: "Poppins-Regular";
+    background: white !important;
+    padding: 20px !important;
+    color: #ccc;
+}
+
+.form-group select:focus {
+    font-family: "Poppins-Regular";
+    background: white !important;
+    padding: 20px !important;
+    color: #6a6a6a !important;
+}
+
+.color-change {
+    color: #6a6a6a !important;
+}
+
+.form-group textarea {
+    font-family: "Poppins-Regular";
+    background: white !important;
+    padding: 20px !important;
+}
+
+.form-group p {
+    font-size: 11px;
+    font-family: "Poppins-Regular";
+}
+/*.form-wrapper select {*/
+    /*width: 100%;*/
+    /*border: 0;*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    /*background-color: #f7f7f7;*/
+    /*border: 1px solid #EEE;*/
+    /*padding: 10px 15px;*/
+/*}*/
+
+::placeholder {
+    font-family: "Poppins-Regular";
+    color: #ccc !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ccc !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ccc !important;
+}
+
+.submit-button {
+    padding: 10px 40px !important;
+}
+.btn-adjust{
+    left: 96% !important;
+    position: relative;
+}
+
+.submit-button input {
+    float: right !important;
+    background: rgb(208, 228, 247); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 0%, rgba(10, 119, 213, 1) 74%, rgba(9, 131, 232, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 0%, rgba(10, 119, 213, 1) 74%, rgba(9, 131, 232, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 0%, rgba(10, 119, 213, 1) 74%, rgba(9, 131, 232, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0e4f7', endColorstr='#0983e8', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    font-family: "Poppins-Regular";
+    padding: 15px 40px !important;
+    width: 50%;
+    border-radius: 0 !important;
+    -webkit-box-shadow: 4px 4px 21px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 4px 4px 21px rgba(0, 0, 0, 0.32);
+    box-shadow: 4px 4px 21px rgba(0, 0, 0, 0.32);
+}
+
+.submit-text {
+    padding: 20px;
+    font-family: "Poppins-Regular";
+    font-size: 18px;
+}
+
+/*Career Form End */
+html {
+    overflow-y: scroll;
+}
+
+body {
+    position: absolute;
+}
