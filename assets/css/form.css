@@ -3,7 +3,9 @@
     background-color: black !important;
     height: 75px;
 }*/
-
+.proposal{
+    margin-top:0 !important ;
+}
 .adjust-navbar {
     margin-top: 10px !important;
     font-size: 12px !important;
@@ -180,6 +182,7 @@ hr {
     font-weight: bold;
     padding: 5px 10px;
     font-size: 18px;
+    color:#666;
 }
 
 .proposal-time-container {

@@ -185,7 +185,9 @@ body {
 float: none;
 }
 .header.header-hide {
+    /*
 	background: none repeat scroll 0 0 #0f1726;
+    */
 }
 .navbar-header {
 	float: none;
@@ -254,7 +256,9 @@ float: none;
 }
 
 .header.header-hide {
+    /*
     background: none repeat scroll 0 0 #0f1726;
+    */
 }
 
 /* Schedule social links*/

@@ -107,16 +107,22 @@ h6 {
 
 p {
 	color: #5f6061;
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 1.6em;
+}
+
+.banner-programming{
+    color: #9a9a9a !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
 }
 .sponsor-heading{
     padding: 20px;
-    font-size: 30px;
+    font-size: 26px;
 }
 .coming-soon{
     padding:50px;
-    font-size: 2.8em;
+    font-size: 2.5em;
     font-weight: 700;
     text-transform: uppercase;
     color:#1E345C;
@@ -129,24 +135,190 @@ p {
 }
 .price-card-container{
 	width: 100%;
-	padding: 15%;
+    padding:20px;
+    display: block;
+    overflow: hidden;
 }
 .card{
-	border-radius: 5px;
+    width:80%;
+    border-radius: 13px!important;
 	background: #212639;
-	color: white;
-	padding:100px 120px;
 	display: table;
 	color: #fff;
-	margin: 0 auto;
+    height: 330px;
 }
-
+.discount{
+    color:#00A4FF;
+    font-size: 18px;
+}
+.earlybird-date{
+    color: #ffffff!important;
+    font-size: 15px !important;
+    letter-spacing:2px;
+}
+.earlybird{
+    color: #ffffff!important;
+    margin-top: 4px !important;
+    font-size: 11px !important;
+}
+.middle-card{
+    padding:70px 20px 50px;
+    margin: 0 auto;
+}
+.left-cards{
+    padding:50px 20px;
+    float:right
+}
+.right-cards{
+    padding:70px 20px 50px;
+    float:left
+}
+.buy-now-btn-container{
+    width: 100%;
+    padding-top:20px;
+}
+.buy-now-btn{
+    display: table;
+    padding: 10px 30px;
+    margin: 0 auto;
+    color:#212639;
+    background: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.buy-now-btn:hover{
+    color:#212639;
+    background: #00A4FF;
+}
+.learn-more-btn:hover{
+    color:#212639 !important;
+ }
+.submit-now-btn{
+    background: none repeat scroll 0 0 rgba(27, 206, 124, 1);
+    color: #363738;
+    display: block;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    padding: 15px;
+    text-transform: uppercase;
+    width: 200px;
+ }
+.submit-now-btn:hover{
+    color:#212639 !important;
+}
+.plan-name{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.plan-price{
+    font-size: 50px;
+    font-weight: bold;
+    color:#00A4FF;
+    margin: 0;
+    padding: 0;
+    letter-spacing:2px;
+}
 .sponsor-logo{
 
 }
 .bottom-spacing{
 	margin-bottom:2.5%;
 }
+.plan-price .fa{
+    top: 8px;
+    position: relative;
+}
+.time-counter{
+     padding-top:20px;
+ }
+.border-right{
+    border-right:thin solid #3A3A3A;
+}
+.time-counter .time-counter-container{
+    display: inline-block;
+    padding:0px 15px;
+    margin-bottom: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.time-counter-digits{
+    color:#00A4FF;
+    font-size: 46px;
+    font-weight: bold;
+}
+.time-counter-text{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media screen and (max-device-width: 992px){
+    .middle-card{
+        padding:70px 20px 50px;
+        float:left;
+    }
+    .left-cards{
+        padding:50px 20px;
+        float:right;
+        margin: 0 auto;
+    }
+    .right-cards{
+        padding:70px 20px 50px;
+        float:none;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-device-width: 767px){
+
+    .time-counter-digits {
+        font-size: 40px;
+        line-height: 0;
+    }
+    .time-counter-text {
+        font-size: 12px;
+    }
+    .padding-session-left{
+        padding: 20px 0 !important;
+    }
+    .padding-session-right{
+        padding: 20px 0 !important;
+    }
+
+    .middle-card{
+        padding:70px 20px 50px;
+        float: none;
+        margin: 0 auto;
+    }
+    .left-cards{
+        padding:50px 20px;
+        float:none;
+        margin: 0 auto;
+    }
+    .right-cards{
+        padding:70px 20px 50px;
+        float:none;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+@media screen and (max-device-width: 480px){
+
+    .time-counter-digits {
+        font-size: 24px;
+        line-height: 0;
+        margin-bottom: 0;
+    }
+    .time-counter-text {
+        font-size: 11px;
+    }
+}
+
 
 .form-control::-webkit-input-placeholder { /* WebKit browsers */
     color: #fff;
@@ -321,14 +493,14 @@ hr {
 .landing-text-pos {
 	cursor: move;
     position: absolute;
-    top: 35%;
+    top: 25%;
     width: 100%;
     z-index: 2;
 }
 
 .landing-text-pos h1{
 
-    font-size: 3.5em;
+    font-size: 4.5em;
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -2221,4 +2393,40 @@ ul.legals li:last-child::after {
 }
 .ui-loader.ui-corner-all.ui-body-a.ui-loader-default{
 	display:none;
+}
+.adjust-proposal {
+    bottom: 125px;
+    position: relative;
+    padding: 0px;
+}
+
+.proposal {
+    padding-bottom: 50px;
+    margin-top: 5%;
+}
+.padding-session-left {
+    padding-left: 80px;
+}
+
+.padding-session-right {
+    padding-right: 80px;
+}
+
+.proposal-description-container {
+    padding: 5px;
+}
+
+.proposal-description-container p {
+    font-size: 16px;
+}
+.date-set{
+    color:#eff0f0;
+}
+.padding-price{
+    padding: 45px;
+}
+.color-content{
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
 }
