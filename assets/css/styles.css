@@ -107,8 +107,14 @@ h6 {
 
 p {
 	color: #5f6061;
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 1.6em;
+}
+
+.banner-programming{
+    color: #9a9a9a !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
 }
 .sponsor-heading{
     padding: 20px;
@@ -129,18 +135,44 @@ p {
 }
 .price-card-container{
 	width: 100%;
-	padding: 15%;
 }
 .card{
+    width:80%;
 	border-radius: 5px;
 	background: #212639;
-	color: white;
-	padding:100px 120px;
+	padding:50px 20px;
 	display: table;
 	color: #fff;
 	margin: 0 auto;
 }
-
+.buy-now-btn-container{
+    width: 100%;
+    padding-top:20px;
+}
+.buy-now-btn{
+    display: table;
+    padding: 10px 30px;
+    margin: 0 auto;
+    color:#212639;
+    background: white;
+    font-size: 16px;
+}.buy-now-btn:hover{
+    color:#212639;
+    background: #00A4FF;
+}
+.learn-more-btn:hover{
+    color:#212639 !important;
+ }
+.plan-name{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.plan-price{
+    font-size: 36px;
+    font-weight: bold;
+    color:#00A4FF;
+}
 .sponsor-logo{
 
 }
@@ -321,14 +353,14 @@ hr {
 .landing-text-pos {
 	cursor: move;
     position: absolute;
-    top: 35%;
+    top: 25%;
     width: 100%;
     z-index: 2;
 }
 
 .landing-text-pos h1{
 
-    font-size: 3.5em;
+    font-size: 4.5em;
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -2221,4 +2253,57 @@ ul.legals li:last-child::after {
 }
 .ui-loader.ui-corner-all.ui-body-a.ui-loader-default{
 	display:none;
+}
+.adjust-proposal {
+    bottom: 125px;
+    position: relative;
+    padding: 0px;
+}
+
+.proposal {
+    padding-bottom: 50px;
+    margin-top: 5%;
+}
+.padding-session-left {
+    padding-left: 80px;
+}
+
+.padding-session-right {
+    padding-right: 80px;
+}
+
+.proposal-description-container {
+    padding: 5px;
+}
+
+.proposal-description-container p {
+    font-size: 16px;
+}
+.date-set{
+    color:#eff0f0;
+}
+.padding-price{
+    padding: 45px;
+}
+.color-content{
+    color: #6b6b6b;
+    font-weight: bold;
+    font-size: 16px;
+}
+.discount{
+    color:#00A4FF;
+    font-weight: bold;
+}
+.earlybird{
+    color: #ffffff!important;
+}
+.price-cards{
+    width: 70%!important;
+border-radius: 13px!important;
+    padding: 50px 20px 30px ;
+}
+.standard-cards{
+    padding: 50px 20px 80px;
+    width: 70%!important;
+    border-radius: 13px!important;
 }

@@ -105,10 +105,12 @@
     <div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="row">
             <div class="col-lg-12 align-center about">
-                <h1 class="arrow">About Tech Triveni</h1>
+                <h1 class="arrow-new">What is awaiting?</h1>
                 <hr>
-                <p>At Tech Triveni, you will be surrounded by the three cutting-edge technologies - Functional Programming, Reactive Applications and Big Data. It’s your opportunity to discover future trends and to understand these technologies that is driving the global economy. Get the latest insights and skills from technology leaders and practitioners shaping the future of these technologies. Immerse yourself with the latest tools, tech, and experiences that matter, and hear the latest updates and ideas directly from the experts. Whether you attend for sessions or workshops, you’ll engage in free-flowing ideas that will help you and your career achieve tomorrow’s goals, today!</p><br>
-                <p>Discover the promise and possibilities of the digital future of Reactive Application, Functional Programming and Big Data Technologies. We ensure you that Tech Triveni will leave you infused with inspiration, new ideas and relationships. </p>
+                <p class="awaiting-content">We’re hosting three separate tracks for proposals, one for functional programming, another for the domain of bigdata and the third vouching for the reactive stack.
+                </p ><br>
+                <p class="awaiting-content">In the first round of review, we’ll evaluate how well proposals reflect latest emerging trends, concepts, new ideas, engaging learning, knowledge level and business domain engagement. Further they shall be evaluated for learner outcomes, speaker expertise, attendee value, business value and current trend and demand.
+                </p>
             </div>
         </div>
     </div>
@@ -119,7 +121,7 @@
     <div class="container-fluid wow animated fadeInLeft bottom-spacing">
         <div class="row">
             <div class="col-md-12 align-center wow animated fadeInLeft proposal">
-                <h2 class="arrow session-proposal">CALL FOR SESSIONS PROPOSAL DEADLINE</h2><hr>
+                <h2 class="arrow-new1 session-proposal">Call for session proposals deadlines</h2><hr>
                 <div class="container">
                     <!--Row-->
                     <div class="row">
@@ -130,7 +132,7 @@
                             </div>
                             <div class="col-md-12">
                                 <img class=" row proposal-image" src = "../tech-triveni-frontend/assets/img/Calender.png"> <p class ="col-md-4 date-set">25 DEC 2018<i class="fa fa-circle fa-design"></i></p>
-                                <p class =" col-md-6 content-proposal"> Call for proposals closes at <date style="color: #00A4FF">11:59pm IST</date></p>
+                                <p class =" col-md-6 content-proposal"> Call for proposals closes at <date class="time-set">11:59pm IST</date></p>
                             </div>
                                 <div class="col-md-12">
                                     <img class=" row proposal-image" src = "../tech-triveni-frontend/assets/img/Calender.png"><p class ="col-md-4 date-set">25 DEC 2018<i class="fa fa-circle fa-design"></i></p>
@@ -147,15 +149,16 @@
 </section>
 <!--Call for proposals-->
 <section class="text-center section-padding adjust-proposal" id="responsiveness">
+
     <div class="container-fluid wow animated fadeInLeft bottom-spacing">
         <div class="row aligned-submit">
             <div class="col-md-12 align-center wow animated fadeInLeft proposal color-black">
-                <h2 class="arrow color-white">HOW TO SUBMIT ?</h2>
+                <h2 class="arrow color-white">How to submit?</h2>
                 <div class="container">
-                    <hr>
-                    <h4 style="color: #e1d2d2!important">Following below is the proposal form, fill in the form to submit your proposal.
-                        Optionally, attach additional supporting document alone.
-                    </h4><br>
+                    <hr style="margin-top: 0px!important;">
+                    <p style="color: #e1d2d2!important" class="awaiting-contentNew">Following below is the proposal form, fill in the form to submit your proposal.
+                        Optionally, attach additional supporting document along.
+                    </p><br>
 <!--Career forms-->
     <div id = "careerForm" class = "career-form-main-container">
     <div class = "container">
@@ -180,16 +183,15 @@
                                    placeholder="Enter your last name" required />
                         </div>
                         <div class="col-md-6 form-group clearfix">
-                            <span class = "form-text">Job Title*</span>
-                            <input type="text" id="jobtitle" name="job"
-                                   placeholder="Enter your job title" required />
-                        </div>
-                        <div class="col-md-6 form-group clearfix">
                             <span class = "form-text">Organisation*</span>
                             <input type="text" id="org" name="org"
                                    placeholder="Enter your organisation" required />
                         </div>
-
+                        <div class="col-md-6 form-group clearfix">
+                            <span class = "form-text">Job Title*</span>
+                            <input type="text" id="jobtitle" name="job"
+                                   placeholder="Enter your job title" required />
+                        </div>
                         <div class="col-md-6 form-group clearfix">
                             <span class = "form-text">Contact Number*</span>
                             <input type="text" id="conta" name="contact"
@@ -210,7 +212,7 @@
                         </div>
                         <div class="col-md-6 form-group clearfix">
                             <span class = "form-text">Topics*</span>
-                            <input type="text" id="topics" name="org"
+                            <input type="text" id="topics" name="topic"
                                    placeholder="Enter your topic" required />
                         </div>
 
@@ -218,36 +220,61 @@
                             <span class = "form-text">Duration*</span>
                             <select id="duration" name="duration" required >
                                 <option value="">Enter your duration</option>
-                                <option value="1"> 1 hour</option>
-                                <option value="2"> 2 hours </option>
-                                <option value="3"> 3 hours</option>
-                                <option value="4"> 4 hours</option>
+                                <option value="1"> 40 Minutes</option>
                             </select>
                         </div>
 
                         <div class="col-md-6 form-group clearfix">
                             <span class = "form-text">Audience level*</span>
                             <select id="audience" name="audience"required >
-                                <option value="">Enter your topics</option>
-                                <option value="1"> Scala</option>
-                                <option value="2"> BigData</option>
-                                <option value="3"> Akka</option>
-                                <option value="4"> DevOps</option>
-                                <option value="5"> Kafka</option>
-                                <option value="6"> Angular</option>
-                                <option value="7"> Lagom</option>
+                                <option value="">Enter your Audience level</option>
+                                <option value="1"> Open</option>
+                                <option value="2"> Beginner</option>
+                                <option value="3"> Intermediate</option>
+                                <option value="4"> Advanced</option>
                             </select>
                         </div>
-                        <div class="col-md-12 form-group clearfix">
-                            <span class = "form-text">Why you want to join the Knoldus</span>
-                            <textarea name="whyknoldus" id="whyknoldus"
-                                      placeholder="Enter your Message" required></textarea>
+                        <div class="col-md-6 form-group clearfix">
+                            <span class = "form-text">Video Url*</span>
+                            <input type="text" id="url" name="url"
+                                   placeholder="Enter video url" required />
+                        </div>
+
+                        <div class="col-md-6 form-group clearfix clip-upload">
+                            <span class = "form-text">Upload file*</span>
+                            <input type="text" id="fileUpload" name="fileUp"
+                                   placeholder="Upload your file" required />
+                            <label for="file-input">
+                                <p class="verticalLine">|</p>  <i class="fa fa-paperclip fa-lg paper-clip" aria-hidden="true"></i>
+                            </label>
+
+                            <input type="file" class="file-input hide" name="file-input" id="file-input">
+                        </div>
+
+                        <div class="col-md-6 form-group clearfix">
+                            <span class = "form-text">Short Description</span>
+                            <textarea name="description" id="descriptions"
+                                      placeholder="Enter short description" required></textarea>
+                        </div>
+                        <div class="col-md-6 form-group clearfix">
+                            <span class = "form-text">Biography</span>
+                            <textarea name="biography" id="bio"
+                                      placeholder="Enter biography" required></textarea>
+                        </div>
+                        <div class="col-md-6 form-group clearfix">
+                            <span class = "form-text">Abstract</span>
+                            <textarea name="abstract" id="abs"
+                                      placeholder="Enter abstract" required></textarea>
                         </div>
 
                         <div class="col-md-6 submit-button clearfix">
                             <input type="submit" value="Submit" class="btn btn-primary leave-message-btn btn-adjust">
                         </div>
                     </form>
+                    <div class="col-md-12">
+                        <a class="hover-color" href = "index.html/#contact">need help ?</a><p class="hover-colorLine"> | </p><a class="hover-colorLine" href="index.html">Rules and Regulations</a>
+
+                    </div>
                 </div>
 
             </div>
