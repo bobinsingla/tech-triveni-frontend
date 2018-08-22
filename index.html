@@ -39,10 +39,10 @@
 
         <style>
             .time-counter{
-
+                padding-top:20px;
             }
             .border-right{
-                border-right:thin solid #fff;
+                border-right:thin solid #3A3A3A;
             }
             .time-counter .time-counter-container{
                 display: inline-block;
@@ -59,6 +59,43 @@
                 color: white;
                 font-size: 16px;
                 font-weight: 600;
+            }
+
+            @media screen and (max-device-width: 600px){
+                .time-counter .time-counter-container {
+                    padding: 0px 20px;
+                    height: 40px;
+                }
+
+                .time-counter-digits {
+                    font-size: 40px;
+                    line-height: 0;
+                }
+                .time-counter-text {
+                    font-size: 12px;
+                }
+
+
+            }
+
+
+
+            @media screen and (max-device-width: 400px){
+                .time-counter .time-counter-container {
+                    padding: 0px 10px;
+                    height: 30px;
+                }
+
+                .time-counter-digits {
+                    font-size: 24px;
+                    line-height: 0;
+                    margin-bottom: 0;
+                }
+                .time-counter-text {
+                    font-size: 11px;
+                }
+
+
             }
         </style>
 
@@ -132,10 +169,10 @@
 			
 			<div class="home-bg"></div>
 			<div class="col-lg-12 landing-text-pos align-center">
-				<h1 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="1s">TECH TRIVENI</h1>
-<!--
-				<hr id="title_hr"/>
--->
+				<h1 class="font-size wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="1s">TECH TRIVENI</h1>
+                <div class = "">
+                    <p class = "banner-programming"> FUNCTIONAL . BIG DATA . REACTIVE</p>
+                </div>
                 <div class = "time-counter">
                     <div class="time-counter-container border-right wow animated fadeInLeft">
                         <span class = "time-counter-digits" id="day"></span>
@@ -159,7 +196,7 @@
                     </div>
                 </div>
 				<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">New Delhi, 17 November 2018</p>
-				<a class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="#swag">Buy Tickets</a>
+				<a class="learn-more-btn btn-effect wow animated fadeIn"  data-scroll href="#team" data-wow-duration="0.5s" data-wow-delay="1.5s">Call For Proposal</a>
 			</div>
 		</section>
 		<!--/HOME-->
@@ -171,8 +208,12 @@
 					<div class="col-lg-12 align-center about">
 						<h1 class="arrow">About Tech Triveni</h1>
 						<hr>
-						<p>At Tech Triveni, you will be surrounded by the three cutting-edge technologies - Functional Programming, Reactive Applications and Big Data. It’s your opportunity to discover future trends and to understand these technologies that is driving the global economy. Get the latest insights and skills from technology leaders and practitioners shaping the future of these technologies. Immerse yourself with the latest tools, tech, and experiences that matter, and hear the latest updates and ideas directly from the experts. Whether you attend for sessions or workshops, you’ll engage in free-flowing ideas that will help you and your career achieve tomorrow’s goals, today!</p><br>
-                        <p>Discover the promise and possibilities of the digital future of Reactive Application, Functional Programming and Big Data Technologies. We ensure you that Tech Triveni will leave you infused with inspiration, new ideas and relationships. </p>
+						<p>At Tech Triveni you would discover the promise and possibilities of the digital future with the Functional and Reactive programming approaches along with the hot and trending omnipresent big data, where innovators, programmers, business holders and enthusiasts & experts from IT could join to learn and collaborate on the latest architectures for building and running reactive, big data and functional systems that are scalable, high on performance using the reactive and light bend stack. It’s a delightful amalgamation of the hottest trends around reactive programming, microservices, streaming data, big data and functional programming to build reactive applications.
+                        </p><br>
+                        <p>We have plenty of practical and interesting talks aligned across the three tracks spanning across each of the reactive, functional and big data domain respectively by scholarly and established experts from the Industry.  Get the latest insights and skills from technology leaders and practitioners who are involved in shaping the future of these technologies. Get acquaintance with the latest tools, tech and experiences that matter, and hear the latest updates and ideas directly from the experts.
+                        </p><br>
+                        <p>At Tech Triveni we will ensure to leave you infused with inspiration, new ideas and relationships to grow better.
+                        </p>
 					</div>
 				</div>
 			</div>
@@ -241,18 +282,16 @@
 							<div class="features-wrapper">
 								<div class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="icon">
-									  72+
+									  24+
 									</div>
 									<h2>hours</h2>
-									<p>Sessions and Training of industry-focused to elevate your skill and knowledge.</p>
 								</div>
 							  
 								<div class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="icon">
-									 16+
+									 30+
 									</div>
 									<h2>speakers</h2>
-									<p>Learn and exchange best practices with subject matter experts and your peers—all under one roof.</p>
 								</div>
 							  
 								<div class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
@@ -260,7 +299,6 @@
 									  25+
 									</div>
 									<h2>technologies</h2>
-									<p>Explore the latest tools and technology through a variety of experiences, including hands-on demos experience.</p>
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -285,7 +323,8 @@
 				<div class="row">
 					<div class="col-md-12 align-center wow animated fadeInLeft">
 						<h1 class="arrow">Schedule</h1><hr>
-						<p>Our sessions is designed in 3 tracks, each one with a wide content to explore the right tools,technologies and techniques to deliver the incredible results. Through these sessions , you'll take deep dives into Reactive Application, Functional Programming and Big Data and other emerging technologies.</p>
+                        <p>The event calls for a combination of three Mega streams to unite in i.e Reactive programming,  Big Data and Functional programming.</p>
+                        <p>There would be three parallel tracks, one for each stream you can choose to join in anyone one of these tracks.</p>
                         <br>
                         <div class="day">November 18, 2018</div>
 					</div>
@@ -296,9 +335,9 @@
 				<div id="tabs-ui" class="tabs">
 					<nav>
 						<ul>
-							<li><a href="#section-1"><span>Track 1</span></a></li>
-							<li><a href="#section-2"><span>Track 2</span></a></li>
-							<li><a href="#section-3"><span>Track 3</span></a></li>
+							<li><a href="#section-1"><span>Track 1 - Reactive</span></a></li>
+							<li><a href="#section-2"><span>Track 2 - Big Data</span></a></li>
+							<li><a href="#section-3"><span>Track 3 - Functional</span></a></li>
 						</ul>
 					</nav>
 					<div class="content">
@@ -522,14 +561,60 @@
 					<h1 class="arrow">Call For Proposals</h1><hr>
 					<h3 class = "speaker-subheading">Be a speaker at Tech Triveni</h3>
 					<p>We’re planning an incredible international technical conference in India, and we’d love your help. If you’re a technical expert in the domain of reactive or big data or functional programming with a great concept for a technical session, we invite you to submit a proposal.</p>
-                      <p>25/12/2018-Registrations open for proposals | 25 DEC 2018 Call for proposals closes at 11:59pm IST | 25 DEC 2018 Notification of acceptance</p>
-                      <a class="learn-more-btn btn-effect-speaker wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="#swag">Buy Tickets</a>
-				  </div>
+                  </div>
+                    <div class = "align-center">
+<!--
+                        <p class = "">25/12/2018-Registrations open for proposals | 25/12/2018-Call for proposals closes at 11:59pm IST | 25/12/2018-Notification of acceptance</p>
+-->
+                        <!--Call For Proposal-->
+                            <div class="container-fluid wow animated fadeInLeft bottom-spacing">
+                                <div class="row">
+                                    <div class="align-center wow animated fadeInLeft proposal">
+                                        <div class="">
+                                            <!--Row-->
+                                            <div class="">
+                                                <div class="mb-100 text-center session-padding">
+                                                    <div class="col-sm-4">
+                                                        <div class="padding-session-left">
+                                                            <div class="proposal-time-container">
+                                                                <img src = "../tech-triveni-frontend/assets/img/Calender.png"> <div class =" date-set">25 DEC 2018</div>
+                                                            </div>
+                                                            <div class="proposal-description-container">
+                                                                <p>Registrations open for proposals</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-sm-4">
+                                                        <div class = "time-middle-container">
+                                                            <div class="proposal-time-container">
+                                                                <img src = "../tech-triveni-frontend/assets/img/Calender.png"> <div class =" date-set">25 DEC 2018</div>
+                                                            </div>
+                                                            <div class="proposal-description-container">
+                                                                <p>Registrations open for proposals</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-sm-4 padding-session-right">
+                                                        <div class="proposal-time-container">
+                                                            <img src = "../tech-triveni-frontend/assets/img/Calender.png"> <div class =" date-set">25 DEC 2018</div>
+                                                        </div>
+                                                        <div class="proposal-description-container">
+                                                            <p>Registrations open for proposals</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--End row-->
+                                        </div>
+
+                                </div>
+                            </div>
+                        <a class="learn-more-btn btn-effect-speaker wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="/form.html">Submit Proposal</a>
+                    </div>
 				</div>
-				
-			<!-- Example Speaker -->
-			 
-			<!-- /Example Speaker -->
+            </div>
         </section>
 		<!--/SPEAKER-->
 		
@@ -538,42 +623,46 @@
 			<div class="container">
 				<div class="row">
 				  <div class="col-md-12">
-					<h1 class="arrow">Pricing</h1><hr><p>See what you get during the event. Lorem ipsum dolor sit amet, ne soluta nemore eripuit sed.</p>
+                      <h1 class="arrow">Pricing</h1><hr>
 				  </div>
 				</div>
 				<div class="row">
 					<div class="pricing-wrap">                
 						<ul class="slides">
 							<li>
-								<div class="col-md-4 col-md-offset-2 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+								<div class="col-md-4 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
 									<div class = "price-card-container">
-										<div class = "card">
-											<h2 class="bestPlanTitle">$125</h2>
-											<p class="bestPlanPrice">Business</p>
+										<div class = "card price-cards">
+                                            <div class = "plan-name">Early Bird</div>
+                                            <p class="earlybird"> UNTILL MAY 29</p>
+											<div class="plan-price">499</div>
+                                            <div class = "buy-now-btn-container">
+                                                <a class = "buy-now-btn" href ="">BUY NOW</a>
+                                                <p class="earlybird">*INCLUDE 20% DISCOUNT</p>
+                                            </div>
 										</div>
 									</div>
-
-									<!-- <ul class="planContainer">
-									            	<li class="title"><h2>$99</h2></li>
-									            	<li class="price"><p>Individual</p></li>
-									            	<li>
-									            		<ul class="options">
-									            			<li>2x option 1</li>
-									            			<li>Free option 2</li>
-									            			<li>Unlimited option 3</li>
-									            			<li>Unlimited option 4</li>
-									            			<li>1x option 5</li>
-									            	   </ul>
-									            	</li>
-									            	<li class="button"><a data-scroll class="btn-effect" href="#swag">Register</a></li>
-									            </ul>  -->            
 								</div>
-							  
-								<div class="col-md-4 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+							    <div class="col-md-4 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
 									<div class = "price-card-container">
-										<div class = "card">
-											<h2 class="bestPlanTitle">$125</h2>
-											<p class="bestPlanPrice">Business</p>
+										<div class = "card standard-cards">
+                                            <div class = "plan-name">Standard</div>
+                                            <div class="plan-price">499</div>
+                                            <div class = "buy-now-btn-container">
+                                                <a class = "buy-now-btn" href ="">BUY NOW</a>
+                                            </div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+									<div class = "price-card-container ">
+										<div class = "card standard-cards">
+                                            <div class = "plan-name">Onsite</div>
+                                            <div class="plan-price">499</div>
+                                            <div class = "buy-now-btn-container">
+                                                <a class = "buy-now-btn" href ="">BUY NOW</a>
+                                            </div>
 										</div>
 									</div>
 								</div>
@@ -582,38 +671,9 @@
 						</ul>                
 					</div>
 				</div>
-				<div class = "row">
-					<div class = "col-sm-4">
-						<div class = "offer-container">
-							<p>Early Bird</p>
-							<ul>
-								<li>20% discount</li>
-								<li>Early bird Registrations open till ----</li>
-							</ul>
-						</div>
-					</div>
-					<div class = "col-sm-4">
-						<div class = "offer-container">
-							<p>Student Discount</p>
-							<ul>
-								<li>50% discount</li>
-								<li>Mandatory iCard</li>
-							</ul>
-						</div>
-					</div>
-					<div class = "col-sm-4">
-						<div class = "offer-container">
-							<p>Group Discount</p>
-							<ul>
-								<li>25% discount</li>
-								<li>Registering 3 delegates or more.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class = "">
-					To view the Knoldus cancellation policy click <a href = "#">here</a>.
-				</div>
+				<div class = "row padding-price">
+                <p class="color-content">Student Discount <span class="discount">50% discount</span> mandatory iCard</p>
+                <p class="color-content">Group Discount <span class="discount">25% discount</span> registering 3 delegates or more</p>
 			</div>
         </section>
 		<!--/PRICING-->
@@ -719,7 +779,8 @@
 				<div class="row">
 					<div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
 						<h1 class="arrow">Contact</h1><hr>
-						<p>Lorem ipsum dolor sit amet, alia honestatis an qui, ne soluta nemore eripuit sed. Falli exerci aperiam ut his, prompta feugiat usu minimum delicata.</p>
+						<p>For any queries and doubts or assistence, please get in touch with our team.
+                            We would be happy to help.</p>
 					</div>
 				</div>
 				<div class="row contact-details">
