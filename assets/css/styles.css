@@ -203,7 +203,7 @@ p {
     margin: 0 auto;
     padding: 15px;
     text-transform: uppercase;
-    width: 200px;
+    width: 225px;
  }
 .submit-now-btn:hover{
     color:#212639 !important;
@@ -271,7 +271,9 @@ p {
     }
 }
 @media screen and (max-device-width: 767px){
-
+    .submit-now-btn{
+        width: 200px;
+    }
     .time-counter-digits {
         font-size: 40px;
         line-height: 0;
@@ -526,7 +528,7 @@ hr {
     margin: 2.9em auto 0;
     padding: 15px;
     text-transform: uppercase;
-    width: 200px;
+    width: 225px;
 }
 
 .align-center {
@@ -547,6 +549,17 @@ hr {
 	-webkit-box-shadow: 10px 12px 17px -6px rgba(0,0,0,0.2);
 	-moz-box-shadow: 10px 12px 17px -6px rgba(0,0,0,0.2);
 	box-shadow: 10px 12px 17px -6px rgba(0,0,0,0.2);
+}
+@media only screen and (max-width:992px){
+    .header-hide{
+        background: none repeat scroll 0 0 #0f1726 !important;
+    }
+    .scroll-header {
+        background: none repeat scroll 0 0 white !important;
+    }
+    .scroll-header .navbar-default .navbar-toggle .icon-bar {
+        background-color: #0f1726 !important;
+    }
 }
 .logo-visible{
 	display:none !important;
@@ -2394,11 +2407,6 @@ ul.legals li:last-child::after {
 .ui-loader.ui-corner-all.ui-body-a.ui-loader-default{
 	display:none;
 }
-.adjust-proposal {
-    bottom: 125px;
-    position: relative;
-    padding: 0px;
-}
 
 .proposal {
     padding-bottom: 50px;
@@ -2429,4 +2437,33 @@ ul.legals li:last-child::after {
     color: #666;
     font-size: 18px;
     font-weight: 500;
+}
+.link-to-discount{
+    color: #666!important;
+    font-weight: bold!important;
+}
+.link-to-discount:hover {
+    color: #00A4FF!important;
+}
+@media only screen and (max-width: 560px) {
+    .tracks{
+        font-weight: bold !important;
+        font-size: 67% !important;
+    }
+    .coming-soon{
+        font-size: 1.5em!important;
+    }
+    .padding-price{
+        padding: 0px!important;
+    }
+    .banner-programming{
+        font-size: 14px!important;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 359px) {
+    .tracks{
+        font-weight: bold !important;
+        font-size: 60% !important;
+    }
+
 }

@@ -31,8 +31,11 @@ i {
 }
 
 .paper-clip {
-    top: 67px;
+    top: 70px;
+    right: 70px;
+    /*
     margin-left: 182px;
+    */
     float: right;
     font-size: 23px;
     position: absolute;
@@ -98,9 +101,9 @@ i {
 }
 
 .verticalLine {
-    top: 43px !important;
+    top: 45px !important;
     font-size: 42px !important;
-    left: 80% !important;
+    right: 100px !important;
     position: absolute !important;
     color: #e3dcdc !important;
 }
@@ -185,12 +188,6 @@ hr {
     color:#666;
 }
 
-.proposal-time-container {
-}
-
-.proposal-time-container img {
-}
-
 .proposal-description-container {
     padding: 5px;
 }
@@ -229,7 +226,6 @@ hr {
 }
 
 .aligned-submit {
-    bottom: 32px !important;
     position: relative;
 }
 
@@ -275,6 +271,12 @@ hr {
     font-size: 2.5em;
     font-weight: 700;
     padding-top: 8px;
+}
+.showme-desktop{
+    display: block;
+}
+.showme-mobile{
+    display: none;
 }
 
 /* Career Form */
@@ -357,7 +359,8 @@ hr {
 
 .submit-button {
     padding: 15px 40px !important;
-    float: right;
+    width: 70%!important;
+    float: right!important;
 }
 
 .hover-color:hover {
@@ -382,7 +385,7 @@ hr {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0e4f7', endColorstr='#0983e8', GradientType=1); /* IE6-9 fallback on horizontal gradient */
     font-family: raleway;
     padding: 15px 40px !important;
-    width: 40%;
+    width: 100%;
     border-radius: 0 !important;
 }
 
@@ -396,6 +399,12 @@ hr {
     font-size: 13px !important;
     padding: 25px 50px !important
 }
+#fileUpload{
+    position: relative;
+}
+.proposal-timelines{
+    width: 5%!important;
+}
 
 /*Career Form End */
 html {
@@ -407,6 +416,18 @@ body {
 }
 .about{padding-top: 30px}
 @media only screen and (max-width: 767px) {
+    .hover-color {
+        float: none !important;
+    }
+
+    .hover-colorLine {
+        float: none !important;
+        margin-left:0;
+    }
+    .submit-button{
+        padding: 0;
+        width: 100% !important;
+    }
     #text-adjust{
         font-size: 2.5em;
     }
@@ -414,7 +435,7 @@ body {
         font-size: 1.8em;
     }
     hr {
-        width: 45% !important;
+        width: 30% !important;
     }
     .aboutTo-adjust{
         padding: 10px 10px 30px 10px !important;
@@ -437,8 +458,9 @@ body {
     .rule-regulation{
         display: block;
         overflow: hidden;
-        padding: 0 !important;
+        padding: 0 0 20px 0!important;
         text-align: center;
+
     }
     .submit-button{
         float: none;
@@ -451,17 +473,40 @@ body {
         border-radius: 0 !important;
         width: auto !important;
     }
+    .showme-desktop{
+        display: none;
+    }
+    .showme-mobile{
+        display: block;
+    }
 
 }
 @media only screen and (max-width: 480px){
+    .verticalLine {
+        top: 45px !important;
+        font-size: 42px !important;
+        right: 55px !important;
+        position: absolute !important;
+        color: #e3dcdc !important;
+    }
+
+    .paper-clip {
+        top: 70px;
+        right: 25px;
+        float: right;
+        font-size: 23px;
+        position: absolute;
+        color: #a79e9e;
+    }
+
     .banner-overlay{
-        padding-top: 30%;
+        padding-top: 46%;
     }
     #text-adjust{
-        font-size: 3.5em;
+        font-size: 2.3em;
     }
     #sub-heading{
-        font-size: 2.0em;
+        font-size: 1.5em;
     }
     .banner-img-mobile{
         width: 100%;
@@ -561,10 +606,7 @@ body {
     }
 }
 @media only screen and (max-width: 992px) and (min-width: 480px){
-    .submit-button{
-        padding: 0;
-        width: 100%;
-    }
+
 
     .submit-button input{
         float: none!important;
