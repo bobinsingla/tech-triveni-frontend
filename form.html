@@ -90,10 +90,10 @@
     <div class= "row banner-page">
         <div class="wrapper">
             <img class = "banner-img" src = "../tech-triveni-frontend/assets/img/Banner.jpg"/>
-            <div class="col-sm-6 col-xs-6">
+            <img class = "banner-img-mobile" src = "../tech-triveni-frontend/assets/img/9.jpg"/>
+            <div class="banner-overlay">
                 <h1 id="text-adjust">CALL FOR PROPOSALS</h1>
                 <h4 id="sub-heading">Be a speaker at Tech Triveni</h4>
-
             </div>
         </div>
     </div>
@@ -120,25 +120,43 @@
 <section class="text-center section-padding adjust-proposal" id="responsive">
     <div class="container-fluid wow animated fadeInLeft bottom-spacing">
         <div class="row">
-            <div class="col-md-12 align-center wow animated fadeInLeft proposal">
+            <div class="align-center wow animated fadeInLeft proposal">
                 <h2 class="arrow-new1 session-proposal">Call for session proposals deadlines</h2><hr>
-                <div class="container">
+                <div class="">
                     <!--Row-->
-                    <div class="row">
-                        <div class="col-md-12 col-sm-offset-2 mb-100 text-center session-padding">
-                            <div class="col-md-12 col-sm-12">
-                                <img class=" row proposal-image" src = "../tech-triveni-frontend/assets/img/Calender.png"> <p class ="col-md-4 date-set">25 DEC 2018<i class="fa fa-circle fa-design"></i></p>
-                            <p class ="col-md-6 content-proposal">Registrations open for proposals</p>
-                            </div>
-                            <div class="col-md-12">
-                                <img class=" row proposal-image" src = "../tech-triveni-frontend/assets/img/Calender.png"> <p class ="col-md-4 date-set">25 DEC 2018<i class="fa fa-circle fa-design"></i></p>
-                                <p class =" col-md-6 content-proposal"> Call for proposals closes at <date class="time-set">11:59pm IST</date></p>
-                            </div>
-                                <div class="col-md-12">
-                                    <img class=" row proposal-image" src = "../tech-triveni-frontend/assets/img/Calender.png"><p class ="col-md-4 date-set">25 DEC 2018<i class="fa fa-circle fa-design"></i></p>
-                                    <p class ="col-md-6 content-proposal">Notification of acceptance</p>
+                    <div class="">
+                        <div class="mb-100 text-center session-padding">
+                            <div class="col-sm-4">
+                                <div class="padding-session-left">
+                                <div class="proposal-time-container">
+                                    <img src = "../tech-triveni-frontend/assets/img/Calender.png"> <div class =" date-set">25 DEC 2018</div>
+                                </div>
+                                <div class="proposal-description-container">
+                                    <p>Registrations open for proposals</p>
                                 </div>
                                 </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class = "time-middle-container">
+                                    <div class="proposal-time-container">
+                                        <img src = "../tech-triveni-frontend/assets/img/Calender.png"> <div class =" date-set">25 DEC 2018</div>
+                                    </div>
+                                    <div class="proposal-description-container">
+                                        <p>Registrations open for proposals</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 padding-session-right">
+                                <div class="proposal-time-container">
+                                    <img src = "../tech-triveni-frontend/assets/img/Calender.png"> <div class =" date-set">25 DEC 2018</div>
+                                </div>
+                                <div class="proposal-description-container">
+                                    <p>Registrations open for proposals</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <!--End row-->
                 </div>
@@ -163,13 +181,13 @@
     <div id = "careerForm" class = "career-form-main-container">
     <div class = "container">
         <div class = "row">
-            <div class = "career-form-container">
+            <div class = "career-form-container form-background">
                 <div class = "space-sep40"></div>
                 <div class = "heading-container">
                     <div class = "space-sep20"></div>
                 </div>
                 <div class = "space-sep40"></div>
-                <div class="col-md-12 col-sm-12 form-background">
+                <div class="col-md-12 col-sm-12 ">
                     <form action="/sendmail.knol" id="career-form" class="form-wrapper"
                           method="post" role="form" validate>
                         <div class="col-md-6 form-group clearfix">
@@ -252,11 +270,6 @@
                         </div>
 
                         <div class="col-md-6 form-group clearfix">
-                            <span class = "form-text">Short Description</span>
-                            <textarea name="description" id="descriptions"
-                                      placeholder="Enter short description" required></textarea>
-                        </div>
-                        <div class="col-md-6 form-group clearfix">
                             <span class = "form-text">Biography</span>
                             <textarea name="biography" id="bio"
                                       placeholder="Enter biography" required></textarea>
@@ -266,15 +279,22 @@
                             <textarea name="abstract" id="abs"
                                       placeholder="Enter abstract" required></textarea>
                         </div>
+                        <div class="col-md-12 form-group clearfix">
+                            <span class = "form-text">Short Description</span>
+                            <textarea name="description" id="descriptions"
+                                      placeholder="Enter short description" required></textarea>
+                        </div>
+                        <div class="">
+                        <div class="col-md-6 rule-regulation">
+                            <a class="hover-color" href = "index.html/#contact">need help ?</a><p class="hover-colorLine"> | </p><a class="hover-colorLine" href="index.html">Rules and Regulations</a>
+                        </div>
 
                         <div class="col-md-6 submit-button clearfix">
                             <input type="submit" value="Submit" class="btn btn-primary leave-message-btn btn-adjust">
                         </div>
-                    </form>
-                    <div class="col-md-12">
-                        <a class="hover-color" href = "index.html/#contact">need help ?</a><p class="hover-colorLine"> | </p><a class="hover-colorLine" href="index.html">Rules and Regulations</a>
+                        </div>
+                        </form>
 
-                    </div>
                 </div>
 
             </div>

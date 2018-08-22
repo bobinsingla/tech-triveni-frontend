@@ -18,6 +18,7 @@
 .align-center {
     text-align: center !important;
 }
+
 /*Paper clip*/
 i {
     margin: 0 8px;
@@ -26,13 +27,14 @@ i {
 .filename-container {
     margin: 20px 20px 0 0;
 }
-.paper-clip{
+
+.paper-clip {
     top: 67px;
     margin-left: 182px;
     float: right;
     font-size: 23px;
     position: absolute;
-    color: #3276b1;
+    color: #a79e9e;
 }
 
 .filename {
@@ -53,10 +55,8 @@ i {
 .hide {
     visibility: hidden;
 }
+
 /*Paper-clip*/
-
-
-
 
 .form-wrapper input[type=text], .form-wrapper input[type=email], .form-wrapper input[type=file], .form-wrapper textarea {
     width: 100%;
@@ -66,8 +66,9 @@ i {
     background-color: #f7f7f7;
     border: 1px solid #EEE;
 }
+
 .form-wrapper textarea {
-    width: 90%;
+    width: 100%;
     float: left;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -95,45 +96,54 @@ i {
 }
 
 .verticalLine {
-    top: 46px!important;
-    font-size: 35px!important;
+    top: 43px !important;
+    font-size: 42px !important;
     left: 80% !important;
-    position: absolute!important;
+    position: absolute !important;
     color: #e3dcdc !important;
 }
+
 .wrapper {
     width: 100%;
+    min-width: 100vw;
     background-color: lightcyan;
+    position: relative;
 }
 
 .banner-img {
-    background-image: url(pic_1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    display: block;
+}
+.banner-img-mobile{
+    display: none;
 }
 
+.banner-overlay{
+    position: absolute;
+    left:0;
+    top:0;
+    text-align: center;
+    width: 100%;
+    padding-top: 10%;
+
+}
 #text-adjust, #sub-heading {
     position: relative;
     color: white;
     font-weight: bold;
-    font-size: 3.5vw;
+    font-size: 3.5em;
     text-align: center !important;
-    bottom: 276px;
-    left: 59%;
     letter-spacing: 0.1em;
 }
 
 #sub-heading {
-    bottom: 300px !important;
     font-weight: unset;
-    font-size: 2vw;
+    font-size: 2em;
+    margin: 0 !important;
 }
 
 .aboutTo-adjust {
-    bottom: 125px !important;
     position: relative !important;
     background: #ffffff;
     padding: 45px;
@@ -141,7 +151,6 @@ i {
 }
 
 .adjust-proposal {
-    bottom: 125px;
     position: relative;
     padding: 0px;
 }
@@ -162,34 +171,48 @@ hr {
     background: none !important;
 }
 
-.content-proposal {
-    right: 125px;
-    padding-left: 10%;
-    font-size: 16px;
-    text-align: justify;
-}
-
-
 .fa-design {
     color: #00A4FF !important;
     margin-left: 13%;
 }
 
-.proposal-image {
-    float: left !important;
-    margin-left: 8% !important;
+.date-set {
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 18px;
 }
 
-.date-set {
-    margin-top: 1px;
-    right: 75px;
-    padding-bottom: 14px;
-    font-weight: bold;
+.proposal-time-container {
+}
+
+.proposal-time-container img {
+}
+
+.proposal-description-container {
+    padding: 5px;
+}
+
+.proposal-description-container p {
+    font-size: 16px
 }
 
 .time-set {
     font-weight: bold;
     color: #00A4FF;
+}
+
+.time-middle-container {
+    width: 100%;
+    border-right: thin solid #8c8c8c;
+    border-left: thin solid #8c8c8c;
+}
+
+.padding-session-left {
+    padding-left: 80px;
+}
+
+.padding-session-right {
+    padding-right: 80px;
 }
 
 .color-black {
@@ -219,9 +242,10 @@ hr {
 
 .awaiting-contentNew {
     width: 80%;
-    left: 129px;
     font-size: 1.5em !important;
     position: relative;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .sponsor-section {
@@ -280,14 +304,14 @@ hr {
     font-family: raleway;
     background: white !important;
     padding: 20px !important;
-    height: 50px;
 }
 
 .form-group select {
     font-family: raleway;
     background: white !important;
     padding: 20px !important;
-    color: #a9a4a4!important;
+    color: #a9a4a4 !important;
+    font-size: 14px;
 }
 
 .form-group select:focus {
@@ -312,63 +336,62 @@ hr {
     font-family: raleway;
 }
 
-
 ::placeholder {
     font-family: raleway;
-    color:#a9a4a4 !important;
+    color: #a9a4a4 !important;
+    font-size: 14px !important;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #a9a4a4 !important;
+    font-size: 14px !important;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-    color:#a9a4a4!important;
+    color: #a9a4a4 !important;
+    font-size: 14px !important;
 }
 
 .submit-button {
-    padding: 10px 40px !important;
+    padding: 15px 40px !important;
+    float: right;
 }
 
-.btn-adjust {
-    top: 67px !important;
-    position: relative;
+.hover-color:hover {
+    color: #3276b1 !important;
 }
-.hover-color:hover{
-    color: #3276b1!important;
-}
-.hover-color{
+
+.hover-color {
     float: left !important;
 }
+
 .hover-colorLine {
     float: left !important;
     margin-left: 1%;
 }
 
-.hover-colorLine:hover{
-    color: #3276b1!important;
+.hover-colorLine:hover {
+    color: #3276b1 !important;
 }
 
 .submit-button input {
     float: right !important;
-    background: rgb(208, 228, 247); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 0%, rgba(10, 119, 213, 1) 74%, rgba(9, 131, 232, 1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 0%, rgba(10, 119, 213, 1) 74%, rgba(9, 131, 232, 1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 0%, rgba(10, 119, 213, 1) 74%, rgba(9, 131, 232, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0e4f7', endColorstr='#0983e8', GradientType=1); /* IE6-9 fallback on horizontal gradient */
     font-family: raleway;
     padding: 15px 40px !important;
-    width: 50%;
+    width: 40%;
     border-radius: 0 !important;
-    -webkit-box-shadow: 4px 4px 21px rgba(0, 0, 0, 0.32);
-    -moz-box-shadow: 4px 4px 21px rgba(0, 0, 0, 0.32);
-    box-shadow: 4px 4px 21px rgba(0, 0, 0, 0.32);
 }
 
 .submit-text {
     padding: 20px;
     font-family: raleway;
     font-size: 18px;
+}
+
+.rule-regulation {
+    font-size: 13px !important;
+    padding: 25px 50px !important
 }
 
 /*Career Form End */
@@ -378,4 +401,189 @@ html {
 
 body {
     position: absolute;
+}
+.about{padding-top: 30px}
+@media only screen and (max-width: 767px) {
+    #text-adjust{
+        font-size: 2.5em;
+    }
+    #sub-heading{
+        font-size: 1.8em;
+    }
+    hr {
+        width: 45% !important;
+    }
+    .aboutTo-adjust{
+        padding: 10px 10px 30px 10px !important;
+    }
+    .arrow-new1{
+        padding: 0 20px;
+    }
+    .padding-session-left{
+        padding: 20px 0 !important;
+    }
+    .padding-session-right{
+        padding: 20px 0 !important;
+    }
+    .time-middle-container{
+        border:none!important;
+    }
+    .bottom-spacing{
+        margin-bottom: 0;
+    }
+    .rule-regulation{
+        display: block;
+        overflow: hidden;
+        padding: 0 !important;
+        text-align: center;
+    }
+    .submit-button{
+        float: none;
+        padding:20px !important;
+    }
+    .submit-button input{
+        float:none !important;
+        font-family: raleway;
+        padding: 15px 40px !important;
+        border-radius: 0 !important;
+        width: auto !important;
+    }
+}
+@media only screen and (max-width: 480px){
+    .banner-overlay{
+        padding-top: 30%;
+    }
+    #text-adjust{
+        font-size: 3.5em;
+    }
+    #sub-heading{
+        font-size: 2.0em;
+    }
+    .banner-img-mobile{
+        width: 100%;
+        display: block;
+    }
+    .banner-img{
+        display: none;
+    }
+    .wrapper {
+        background: #f3f5f8;
+         height: auto !important;
+    }
+    .banner-overlay-heading-container h1{
+        text-align: center;
+        color: white;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .career-image-overlay-button{
+        cursor: pointer;
+        background: white;
+        padding: 14px 20px;
+        color: #082c62;
+        display: table;
+        font-size: 16px;
+        margin: 10px auto;
+    }
+    .career-image-overlay-heading{
+        margin-top: 10%;
+    }
+    .career-image-overlay-heading-focus{
+        margin-top: 5%;
+    }
+    .content-icon-container{
+        width: 25%;
+        float: left;
+        text-align: center;
+    }
+    .career-content-container{
+        width: 75%;
+        float: left;
+    }
+    /*.submit-button input{
+        float: left!important;
+        width: 100%;
+    }
+*/
+    .submit-text{
+        padding: 0;
+    }
+
+    .form-group{
+        padding: 15px 5px !important;
+    }
+    .form-group span{
+        margin-bottom:10px!important;
+        display: block;
+        font-size: 16px;
+    }
+    .form-group input{
+        background: white !important;
+        padding: 20px !important;
+    }
+    .form-group select{
+        background: white !important;
+        padding: 20px !important;
+        color: #ccc!important;
+    }
+    .form-group select:focus{
+        background: white !important;
+        padding: 20px !important;
+        color: #6a6a6a!important;
+    }
+    .form-group select:active{
+        background: white !important;
+        padding: 20px !important;
+        color: #6a6a6a!important;
+    }
+    .form-group textarea{
+        background: white !important;
+        padding: 20px !important;
+    }
+    .form-group p{
+        font-size: 11px;
+
+    }
+    .heading-container h1 {
+        text-align: center;
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .content-heading-container h4 {
+        font-size: 20px;
+    }
+    .career-image-overlay-heading h3{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 480px){
+    .submit-button{
+        padding: 0;
+        width: 100%;
+    }
+
+    .submit-button input{
+        float: none!important;
+        margin: 0 auto;
+    }
+
+    .submit-text{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 992px){
+
+    .focus-container{
+        display: none;
+    }
+    .career-form-container {
+        padding: 0px;
+        position: relative;
+        display: block;
+        overflow: hidden;
+        -webkit-box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+        -moz-box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+    }
+
 }
