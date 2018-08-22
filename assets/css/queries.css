@@ -228,24 +228,24 @@ float: none;
 }
 }
 
-@media screen and (min-width:480px and max-width:991px){
-.wrapper {
-	background:#f3f5f8;
-	height:540px;
-}
+/*@media screen and (min-width:480px) and (max-width:991px){*/
+/*.wrapper {*/
+	/*background:#f3f5f8;*/
+	/*height:540px;*/
+/*}*/
 
 
-.legals {
-	text-align:center;
-	margin:0;
-	padding:0;
-}
+/*.legals {*/
+	/*text-align:center;*/
+	/*margin:0;*/
+	/*padding:0;*/
+/*}*/
 
 
-.iphone,.fluid-white {
-display:none;
-}
-}
+/*.iphone,.fluid-white {*/
+/*display:none;*/
+/*}*/
+/*}*/
 
 @media screen and (max-width: 800px) {
 
