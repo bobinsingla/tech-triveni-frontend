@@ -118,10 +118,10 @@
 <!--/ABOUT-->
 <!--Call For Proposal-->
 <section class="text-center section-padding adjust-proposal" id="responsive">
-    <div class="container-fluid wow animated fadeInLeft bottom-spacing">
+    <div class="container-fluid wow animated fadeInLeft">
         <div class="row">
             <div class="align-center wow animated fadeInLeft proposal">
-                <h2 class="arrow-new1 session-proposal">Call for session proposals deadlines</h2><hr>
+                <h2 class="arrow-new1 session-proposal">Proposal Timelines </h2><hr class="proposal-timelines">
                 <div class="">
                     <!--Row-->
                     <div class="">
@@ -179,7 +179,7 @@
                     </p><br>
 <!--Career forms-->
     <div id = "careerForm" class = "career-form-main-container">
-    <div class = "container">
+    <div>
         <div class = "row">
             <div class = "career-form-container form-background">
                 <div class = "space-sep40"></div>
@@ -253,13 +253,13 @@
                             </select>
                         </div>
                         <div class="col-md-6 form-group clearfix">
-                            <span class = "form-text">Video Url*</span>
+                            <span class = "form-text">Video Url</span>
                             <input type="text" id="url" name="url"
                                    placeholder="Enter video url" required />
                         </div>
 
                         <div class="col-md-6 form-group clearfix clip-upload">
-                            <span class = "form-text">Upload file*</span>
+                            <span class = "form-text">Upload file</span>
                             <input type="text" id="fileUpload" name="fileUp"
                                    placeholder="Upload your file" required />
                             <label for="file-input">
@@ -269,30 +269,46 @@
                             <input type="file" class="file-input hide" name="file-input" id="file-input">
                         </div>
 
-                        <div class="col-md-6 form-group clearfix">
-                            <span class = "form-text">Biography</span>
+                        <div class="col-md-12 form-group clearfix">
+                            <span class = "form-text">Biography*</span>
                             <textarea name="biography" id="bio"
                                       placeholder="Enter biography" required></textarea>
                         </div>
-                        <div class="col-md-6 form-group clearfix">
-                            <span class = "form-text">Abstract</span>
+                        <div class="col-md-12 form-group clearfix">
+                            <span class = "form-text">Abstract*</span>
                             <textarea name="abstract" id="abs"
                                       placeholder="Enter abstract" required></textarea>
                         </div>
-                        <div class="col-md-12 form-group clearfix">
-                            <span class = "form-text">Short Description</span>
-                            <textarea name="description" id="descriptions"
-                                      placeholder="Enter short description" required></textarea>
+                        <div class="showme-desktop">
+                        <div class="col-sm-6">
+                            <div class="rule-regulation">
+                            <a class="hover-color" href = "index.html/#contact">Need help ?</a><p class="hover-colorLine"> | </p><a class="hover-colorLine" href="index.html">Rules and Regulations</a>
                         </div>
-                        <div class="">
-                        <div class="col-md-6 rule-regulation">
-                            <a class="hover-color" href = "index.html/#contact">need help ?</a><p class="hover-colorLine"> | </p><a class="hover-colorLine" href="index.html">Rules and Regulations</a>
                         </div>
 
-                        <div class="col-md-6 submit-button clearfix">
+                        <div class="col-sm-6">
+                            <div class="submit-button  clearfix">
                             <input type="submit" value="Submit" class="btn btn-primary leave-message-btn btn-adjust">
                         </div>
                         </div>
+                        </div>
+
+
+
+                        <div class="showme-mobile">
+
+                            <div class="row">
+                                <div class="submit-button  clearfix">
+                                    <input type="submit" value="Submit" class="btn btn-primary leave-message-btn btn-adjust">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="rule-regulation">
+                                    <a class="hover-color" href = "index.html#contact">Need help ?</a> | <a class="hover-colorLine" href="index.html">Rules and Regulations</a>
+                                </div>
+                            </div>
+                        </div>
+
                         </form>
 
                 </div>
@@ -307,24 +323,39 @@
         </div>
     </div>
 </section>
-
-<div id="sponsers" class="ignite-cta text-center section-padding sponsor-section">
+<!--FOOTER-->
+<footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                <h1 class="arrow">Our Sponsors</h1><hr>
-                <p>Lorem ipsum dolor sit amet, alia honestatis an qui, ne soluta nemore eripuit sed. Falli exerci aperiam ut his, prompta feugiat usu minimum delicata.</p>
+            <div class="col-md-6 align-center">
+                <ul class="legals">
+                    <li><button class="md-trigger " data-modal="modal-11">Disclaimer</button></li>
+                    <li><a href="">copyright TechTriveni 2018 </a></li>
+                    <li><a href="">Ticket Cancellation Policy</a></li>
+                </ul>
             </div>
-            <div class = "sponsor-heading text-center">
-                Platinum Sponsors
+            <div class="md-modal md-effect-9" id="modal-11">
+                <div class="md-content padding-none">
+                    <div class="folio">
+                        <div class="sp-name disclaimer"><strong>Disclaimer</strong></div>
+                        <div class="sp-dsc disclaim-border">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            <br /><br />
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                        <button class="md-close"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
             </div>
-            <div class = "sponsor-logo text-center">
-                <img class = "" src = "assets/img/knoldus_blocklogo.png">
-            </div>
+            <div class="md-overlay"></div>
         </div>
     </div>
-</div>
-<!-- /SPONSORS -->
+</footer>
+<!-- /FOOTER -->
+
+
+
+
 
 <!--SCRIPTS-->
 
